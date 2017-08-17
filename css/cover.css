@@ -775,6 +775,10 @@ opacity:1.0;
     #prj-joehart {
         background-image: url("../img/joehart_internaut.jpg")
     }
+
+    #prj-joehart-alpha {
+        background-image: url("../img/joehart_alphabetagamer.png")
+    }
     
     #prj-clusterfuck-london {
         background-image: url("../img/clusterfuck-london.jpg")
@@ -788,12 +792,6 @@ opacity:1.0;
         background-image: url("../img/clusterfuck-secret.jpg")
     }
     
-    @media (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi) {
-        #prj-joehart {
-            background-image: url("../img/joehart_internaut@2x.jpg")
-        }
-    }
     
     .prose {
         max-width: 620px;

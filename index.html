@@ -2,8 +2,7 @@
 <html lang="en">
 
 <head>
-
-        <!-- Load jQuery -->
+    <!-- Load jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +10,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <meta property="og:site_name" content="Total Comedy | Fresh altenative comedy nights and fringe shows produced by new comedians." />
+    <meta property="og:site_name" content="Total Comedy | Fresh altenative comedy nights and fringe shows produced by new comedians."
+    />
     <meta property="og:title" content="Total Comedy - We Are, Like, Totally Comedy" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="Total Comedy is the fresh new totally cool and groovy comedy thingamagig." />
@@ -30,24 +30,26 @@
     <!-- Load ScrollTo -->
     <script type="text/javascript" src="http://flesler-plugins.googlecode.com/files/jquery.scrollTo-1.4.2-min.js"></script>
     <script src="https://use.typekit.net/dwq1wpv.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script>
+        try { Typekit.load({ async: true }); } catch (e) { }
+    </script>
     <!-- Load LocalScroll -->
     <script type="text/javascript" src="http://flesler-plugins.googlecode.com/files/jquery.localscroll-1.2.7-min.js"></script>
     <script>
-    $(document).ready(function() {
-        $('a[href^="#"]').on('click', function(e) {
-            e.preventDefault();
+        $(document).ready(function () {
+            $('a[href^="#"]').on('click', function (e) {
+                e.preventDefault();
 
-            var target = this.hash;
-            var $target = $(target);
+                var target = this.hash;
+                var $target = $(target);
 
-            $('html, body').stop().animate({
-                'scrollTop': $target.offset().top - $('#navbar').height()
-            }, 900, 'swing', function() {
-                //window.location.hash = target;
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top - $('#navbar').height()
+                }, 900, 'swing', function () {
+                    //window.location.hash = target;
+                });
             });
         });
-    });
     </script>
     <script src="./js/jquery.fittext.js"></script>
 
@@ -68,36 +70,10 @@
                     <li><a href="#current-projects">Current Projects</a></li>
                     <li><a href="#history">History</a></li>
                     <li><a href="#aboutUs">Who we are</a></li>
-                    <li><a href="./clusterfest.html">CLUSTERFEST</a></li>
                     <li>
                     </li>
                 </ul>
             </div>
-        </div>
-    </div>
-    <div class="truck-wrapper">
-        <div class="site-wrapper-inner" id="truck">
-            <div class="cover-container">
-                <div class="inner-cover">
-                    <h1 id="titter-title"><span>The</span> Titter <span>Truck</span></h1>
-                    <h2>Venue 291</h2>
-                    <p class="truck-time"> 3 - 8pm every 15mins</p>
-                    <p>Come find us on Grassmarket every day of the fringe!</p>
-                    <br/>
-                    
-
-
-                   <!--  <p class="acts">FELICTY WARD//ANDREW HUNTER-MURRAY
-<p class="acts">Glenn Moore//Elf Lyons//Alexander Bennett</p><p class="acts">
-Princes of Main//Siân & Zoë//BEST BOY</p><p class="acts">Beard of Zeus//Notflix//Hell to Play</p> -->
-                </div>
-            </div>
-        </div>
-    </div>
-        <div class="row map" id="venue">
-        <div class="map-container">
-            <div class="overlay" onClick="style.pointerEvents='none'"></div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2234.1057921915653!2d-3.198485584061887!3d55.947538280605855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c79a4cd7a555%3A0xabcd5d648b2823e2!2sGrassmarket%2C+Edinburgh!5e0!3m2!1sen!2suk!4v1470339598962" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </div>
     <div class="site-wrapper">
@@ -119,35 +95,29 @@ Princes of Main//Siân & Zoë//BEST BOY</p><p class="acts">Beard of Zeus//Notfli
         <div id="">
             <h2>Current Projects</h2>
             <a href="http://www.clusterfuckshow.com/">
-                <div class="col-md-3 project" id="prj-clusterfuck-london">
+                <div class="col-md-4 project" id="prj-clusterfuck-london">
                     <div class="prj-info">
                         <h3>Clusterf**k London</h3>
-                        <p>A top notch free comedy night of alternative and brilliant comedy, every month at The Miller.</p>
+                        <p>A top notch free comedy night of alternative and brilliant comedy, every month at The Miller. Returns last Tuesday of September!</p>
                     </div>
                 </div>
             </a>
-            <a href="http://www.joehartcomedy.com/">
-                <div class="col-md-3 project" id="prj-joehart">
+            <a href="https://tickets.edfringe.com/whats-on/joe-hart-alpha-beta-gamer">
+                <div class="col-md-4 project" id="prj-joehart-alpha">
                     <div class="prj-info">
-                        <h3>Joe Hart: Internaut</h3>
-                        <p>Joe Hart's new interactive comedy show all about the internet, check it out at edfringe 2016.</p>
+                        <h3>Joe Hart: Alpha, Beta, Gamer.</h3>
+                        <p>Joe Hart's new interactive comedy show about video games, check it out at edfringe 2017.</p>
                     </div>
                 </div>
             </a>
-            <a href="http://www.clusterfuckshow.com/">
-                <div class="col-md-3 project" id="prj-clusterfuck-edinburgh">
+            <a href="https://tickets.edfringe.com/whats-on/clusterf-k">
+                <div class="col-md-4 project" id="prj-clusterfuck-edinburgh">
                     <div class="prj-info">
                         <h3>Clusterf**k Edinburgh</h3>
-                        <p>Returning to the same time and place as last years eclectic fringe run!</p>
+                        <p>Sketch, Improv, Standup. 8.45pm every day of the fringe at Subway on Cowagate!</p>
                     </div>
                 </div>
             </a>
-            <div class="col-md-3 project" id="prj-secret">
-                <div class="prj-info">
-                    <h3>Clusterfest 2016</h3>
-                    <p>A two day comedy festival in Hackney with comedy previews, booze and food.</p>
-                </div>
-            </div>
         </div>
     </div>
     <div class="section-container" id="history">
@@ -164,7 +134,8 @@ Princes of Main//Siân & Zoë//BEST BOY</p><p class="acts">Beard of Zeus//Notfli
                     </div>
                     <div class='content'>
                         <p>
-                            Clusterf**k begins. We booked a space, we sourced some acts, and we did some comedy. It was rate good bruv. A clusterfuck of everything: sketch, improv, character, and stand-up. Free now, free then, free forever.
+                            Clusterf**k begins. We booked a space, we sourced some acts, and we did some comedy. It was rate good bruv. A clusterfuck
+                            of everything: sketch, improv, character, and stand-up. Free now, free then, free forever.
                         </p>
                         <p class="details">Location: PBH’s The George Next Door, Edinburgh</p>
                         <p class="details">Date: August 2014</p>
@@ -181,7 +152,9 @@ Princes of Main//Siân & Zoë//BEST BOY</p><p class="acts">Beard of Zeus//Notfli
                     </div>
                     <div class='content'>
                         <p>
-                            Our biggest, most prestigious, most rambunctious (and only) act debuts with his first Edinburgh Fringe show! All about apples, big ones, small ones, red ones, green ones, and assassin ones. A journey thorough history which touches all the core subjects. Cost money, cost money then, cost money forever.
+                            Our biggest, most prestigious, most rambunctious (and only) act debuts with his first Edinburgh Fringe show! All about apples,
+                            big ones, small ones, red ones, green ones, and assassin ones. A journey thorough history which
+                            touches all the core subjects. Cost money, cost money then, cost money forever.
                         </p>
                         <p class="details">Location: Gilded Balloon’s The Study, Edinburgh</p>
                         <p class="details">Date: August 2015</p>
@@ -198,7 +171,8 @@ Princes of Main//Siân & Zoë//BEST BOY</p><p class="acts">Beard of Zeus//Notfli
                     </div>
                     <div class='content'>
                         <p>
-                            Clusterf**k returns! Back to business. Bigger, badder, bolder, bashfuler, bitterer, bolshier, and biggerer than ever before. Free now, free then, free forever.
+                            Clusterf**k returns! Back to business. Bigger, badder, bolder, bashfuler, bitterer, bolshier, and biggerer than ever before.
+                            Free now, free then, free forever.
                         </p>
                         <p class="details">Location: PBH’s Movement, Edinburgh</p>
                         <p class="details">Date: August 2015</p>
@@ -215,7 +189,10 @@ Princes of Main//Siân & Zoë//BEST BOY</p><p class="acts">Beard of Zeus//Notfli
                     </div>
                     <div class='content'>
                         <p>
-                            They say the neon lights are bright on broadw…..London. This is our regular monthly night, resident at The Miller (normally the third Tuesday of the month but check out www.clusterfuckshow.com to check exactly when). We join forces with the wonderful Best Boy, who help create an excellent line-up of free comedy in the nation’s capital. Free now, free then, free forever.
+                            They say the neon lights are bright on broadw…..London. This is our regular monthly night, resident at The Miller (normally
+                            the third Tuesday of the month but check out www.clusterfuckshow.com to check exactly when).
+                            We join forces with the wonderful Best Boy, who help create an excellent line-up of free comedy
+                            in the nation’s capital. Free now, free then, free forever.
                         </p>
                         <p class="details">Location: The Miller, London</p>
                         <p class="details">Date: 3rd Tuesday Monthly</p>
@@ -232,7 +209,9 @@ Princes of Main//Siân & Zoë//BEST BOY</p><p class="acts">Beard of Zeus//Notfli
                     </div>
                     <div class='content'>
                         <p>
-                            Our first london festival! We brought some of the best pre-fringe crazyness to Hackney and it was smashing! Read more about the line up that happened <a href="./clusterfest.html">here</a>. And keep an eye for more festivals in the future!</p>
+                            Our first london festival! We brought some of the best pre-fringe crazyness to Hackney and it was smashing! Read more about
+                            the line up that happened <a href="./clusterfest.html">here</a>.
+                            And keep an eye for more festivals in the future!</p>
                         <p class="details">Location: Farley Macallan, Hackney, London</p>
                         <p class="details">Date: 9th/10th July</p>
                         <p class="details">Time: All weekend</p>
@@ -250,7 +229,9 @@ Princes of Main//Siân & Zoë//BEST BOY</p><p class="acts">Beard of Zeus//Notfli
                         <p>
                             Clusterf**k 2016</p>
                         <p>
-                            We will return! Back at PBH’s Movement at 20:30, everyday of the fringe. If you are an act interested in performing, the sooner you contact us the better! Fire us a message to Total Comedy either on facebook or twitter. Or if you like the old mail of webs then fire us an email at contact@totalcomedy.co.uk</p>
+                            We will return! Back at PBH’s Movement at 20:30, everyday of the fringe. If you are an act interested in performing, the
+                            sooner you contact us the better! Fire us a message to Total Comedy either on facebook or twitter.
+                            Or if you like the old mail of webs then fire us an email at contact@totalcomedy.co.uk</p>
                         <p>
                             Free now, free then, free forever.</p>
                     </div>
@@ -263,9 +244,11 @@ Princes of Main//Siân & Zoë//BEST BOY</p><p class="acts">Beard of Zeus//Notfli
                         <span class='circle'></span>
                     </div>
                     <div class='content'>
-                         <p>
-                            Booking over 100 acts for a whole load of shows, ranging from award winning comedians to up and coming kids who are doing their very first fringe shows in our van! Come find the Titter Truck on Grassmarket every day of the fringe!</p>
-                            
+                        <p>
+                            Booking over 100 acts for a whole load of shows, ranging from award winning comedians to up and coming kids who are doing
+                            their very first fringe shows in our van! Come find the Titter Truck on Grassmarket every day
+                            of the fringe!</p>
+
                     </div>
                 </li>
             </ul>
@@ -279,9 +262,20 @@ Princes of Main//Siân & Zoë//BEST BOY</p><p class="acts">Beard of Zeus//Notfli
                         <h2>Who are we?</h2>
                         <p> We are like totally comedy!</p>
                         <p>
-                            We like people who make us laugh, and we like making people laugh. We are a comedy co-operative of comedy performers who collectively believe that there needs to be a shake-up of comedy; new experiences which embrace the chaotic nature of live performance, and which welcomes a new generation of comedy connoisseurs from the young generation. We mostly believe that this new-fangled menagerie of millennials, mostly, do not know what-on-earth live comedy is. They turn up at comedy clubs expecting Live at the Apollo and end up disappointed when the night isn’t a slickly edited and highly polished snapshot of stand-up (and they are often confused when to laugh without regular cutaways to the resident celebrity laughing).</p>
+                            We like people who make us laugh, and we like making people laugh. We are a comedy co-operative of comedy performers who
+                            collectively believe that there needs to be a shake-up of comedy; new experiences which embrace
+                            the chaotic nature of live performance, and which welcomes a new generation of comedy connoisseurs
+                            from the young generation. We mostly believe that this new-fangled menagerie of millennials,
+                            mostly, do not know what-on-earth live comedy is. They turn up at comedy clubs expecting Live
+                            at the Apollo and end up disappointed when the night isn’t a slickly edited and highly polished
+                            snapshot of stand-up (and they are often confused when to laugh without regular cutaways to the
+                            resident celebrity laughing).</p>
                         <p>
-                            Enter us! Totally Comedy! Saviours of the world! The alternative comedy revolution faded many years ago, and the circuit is filled with misogynist mother in-law jokes and ‘original’ material about how terrific tinder is. We embrace the different, the unusual, and the playful. Do you love live comedy? Then join us at our anarchic mash-up of everything not-of-the-norm at Clusterf**k, our resident monthly night at The Miller with our good pals ‘Best Boy’.</p>
+                            Enter us! Totally Comedy! Saviours of the world! The alternative comedy revolution faded many years ago, and the circuit
+                            is filled with misogynist mother in-law jokes and ‘original’ material about how terrific tinder
+                            is. We embrace the different, the unusual, and the playful. Do you love live comedy? Then join
+                            us at our anarchic mash-up of everything not-of-the-norm at Clusterf**k, our resident monthly
+                            night at The Miller with our good pals ‘Best Boy’.</p>
                         <p class="signoff">
                             Yours graciously,</p>
                         <p>
@@ -296,7 +290,8 @@ Princes of Main//Siân & Zoë//BEST BOY</p><p class="acts">Beard of Zeus//Notfli
     <div class="mail-container">
         <div class="row">
             <!-- Begin MailChimp Signup Form -->
-            <form action="//clusterfuckshow.us12.list-manage.com/subscribe/post?u=b9739d01b810a2d9eb8b7f371&amp;id=2ade633a0b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <form action="//clusterfuckshow.us12.list-manage.com/subscribe/post?u=b9739d01b810a2d9eb8b7f371&amp;id=2ade633a0b" method="post"
+                id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div class="col-md-3 mail-form">
                     <p class="lead">Subscribe to our mailing list</p>
                 </div>
@@ -333,19 +328,40 @@ Princes of Main//Siân & Zoë//BEST BOY</p><p class="acts">Beard of Zeus//Notfli
             </form>
         </div>
     </div>
+    <div class="section-container" id="Old-projects">
+        <div id="">
+            <h2>Old Projects</h2>
+            <a href="http://www.joehartcomedy.com/">
+                <div class="col-md-6 project" id="prj-joehart">
+                    <div class="prj-info">
+                        <h3>Joe Hart: Internaut</h3>
+                        <p>Joe Hart's new interactive comedy show all about the internet, check it out at edfringe 2016.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="./clusterfest.html">
+            <div class="col-md-6 project" id="prj-secret">
+                <div class="prj-info">
+                    <h3>Clusterfest 2016</h3>
+                    <p>A two day comedy festival in Hackney with comedy previews, booze and food.</p>
+                </div>
+            </div>
+        </a>
+        </div>
+    </div>
     <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
     <script type='text/javascript'>
-    (function($) {
-        window.fnames = new Array();
-        window.ftypes = new Array();
-        fnames[0] = 'EMAIL';
-        ftypes[0] = 'email';
-        fnames[1] = 'FNAME';
-        ftypes[1] = 'text';
-        fnames[2] = 'LNAME';
-        ftypes[2] = 'text';
-    }(jQuery));
-    var $mcj = jQuery.noConflict(true);
+        (function ($) {
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[0] = 'EMAIL';
+            ftypes[0] = 'email';
+            fnames[1] = 'FNAME';
+            ftypes[1] = 'text';
+            fnames[2] = 'LNAME';
+            ftypes[2] = 'text';
+        }(jQuery));
+        var $mcj = jQuery.noConflict(true);
     </script>
     <!--End mc_embed_signup-->
     </div>
@@ -356,14 +372,14 @@ Princes of Main//Siân & Zoë//BEST BOY</p><p class="acts">Beard of Zeus//Notfli
 
 
     <script>
-    jQuery(".clusterfest-wrapper h1").fitText(0.7);
-    jQuery(".clusterfest-wrapper h2").fitText(1.9);
-    jQuery(".dates").fitText(1.9);
-    jQuery(".acts").fitText(5);
+        jQuery(".clusterfest-wrapper h1").fitText(0.7);
+        jQuery(".clusterfest-wrapper h2").fitText(1.9);
+        jQuery(".dates").fitText(1.9);
+        jQuery(".acts").fitText(5);
     // fitText(document.getElementById('clusterfest_header'), 1.2)
-        </script>
+    </script>
     <script>
-    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
     </script>
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
