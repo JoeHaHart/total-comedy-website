@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Load jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta property="og:site_name" content="Total Comedy | Fresh altenative comedy nights and fringe shows produced by new comedians." />
+    <meta property="og:title" content="Total Comedy - We Are, Like, Totally Comedy" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Total Comedy is the fresh new totally cool and groovy comedy thingamagig." />
+    <meta property="og:url" content="http://www.totalcomedy.co.uk/">
+    <meta property="og:image" content="http://www.totalcomedy.co.uk/img/total-comedy-badges-hires.jpg">
+    <link rel="icon" href="../../favicon.ico">
+    <title>Total Comedy - A TimeOut Top Ten Free Comedy Show near London Bridge</title>
+    <!-- Bootstrap core CSS -->
+    <link href="./css/b.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="./css/c.min.css" rel="stylesheet">
+    <!-- Load ScrollTo -->
+    <script type="text/javascript" src="http://flesler-plugins.googlecode.com/files/jquery.scrollTo-1.4.2-min.js"></script>
+    <script src="https://use.typekit.net/dwq1wpv.js"></script>
+    <script>
+    try {
+        Typekit.load({
+            async: true
+        });
+    } catch (e) {}
+    </script>
+    <!-- Load LocalScroll -->
+    <script type="text/javascript" src="http://flesler-plugins.googlecode.com/files/jquery.localscroll-1.2.7-min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('a[href^="#"]').on('click', function(e) {
+            e.preventDefault();
+
+            var target = this.hash;
+            var $target = $(target);
+
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top - $('#navbar').height()
+            }, 900, 'swing', function() {
+                //window.location.hash = target;
+            });
+        });
+    });
+    </script>
+    <script src="./js/jquery.fittext.js"></script>
+</head>
+
+<body>
+    <div class="masthead" id="navbar">
+        <div class="inner">
+            <a href="#top">
+                <img src="./img/TotalComedyWords.svg" id="brand-nav" class="img-svg masthead-brand" alt="Total Comedy" />
+            </a>
+            <div id="social">
+                <a href="https://twitter.com/totalcomedyuk" target="_new"><img src="./img/twitter2.png" alt="Twitter Social Media Total Comedy" /></a>
+                <a href="https://www.facebook.com/totalcomedyuk/?fref=ts" target="_new"><img src="./img/facebook4.png" alt="Facebook Group Clusterfuck" /></a>
+            </div>
+            <div id="nav">
+                <ul class="nav masthead-nav">
+                    <li><a href="./index.html#current-projects">Current Projects</a></li>
+                    <li><a href="./index.html#history">History</a></li>
+                    <li><a href="./index.html#aboutUs">Who we are</a></li>
+                    <li><a href="./clusterfest.html">CLUSTERFEST</a></li>
+                    <li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="clusterfest-wrapper" id="high300">
+        <div class="site-wrapper-inner" id="clusterfest">
+            <div class="cover-container">
+                <div class="inner-cover">
+                    <h1 id="clusterfest_header">Clusterfest</h1>
+                    <h2>A festival of new comedy</h2>
+                    <a href="http://www.farleymacallan.com/" style="text-decoration:none;">
+                        <div class="location_container">
+                            <img src="./img/farley.svg" id="farley-svg" class="img-svg" alt="Total Comedy" />
+                            <p class="location">Farley Macallan, Hackney</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-container">
+        <h2>Listings</h2>
+        <div class="listings row">
+            <a class="block" href="#saturday">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image clusterfest_green">
+                    <div class="listing_inner_container category">
+                        <h3 class="category">SAT</h3>
+                    </div>
+                    <div class="listing_overlay"></div>
+                </div>
+            </a>
+            <a href="#soton_spotlights" class="block">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image soton_spotlights">
+                    <div class="listing_inner_container">
+                        <p class="listing_time">12:40</p>
+                        <h3>Soton Spotlights</h3>
+                    </div>
+                </div>
+            </a>
+            <a class="block" href="#notflix">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image notflix">
+                    <div class="listing_inner_container">
+                        <p class="listing_time">14:00</p>
+                        <h3>Notflix</h3>
+                    </div>
+                </div>
+            </a>
+            <a class="block" href="#elf_lyons">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image elf_lyons">
+                    <div class="listing_inner_container">
+                        <p class="listing_time">15:20</p>
+                        <h3>Elf Lyons</h3>
+                    </div>
+                </div>
+            </a>
+            <a class="block" href="#joe_hart">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image joe_hart">
+                    <div class="listing_inner_container">
+                        <p class="listing_time">16:40</p>
+                        <h3>Joe Hart: Internaut</h3>
+                    </div>
+                </div>
+        </div>
+        </a>
+        <div class="listings row">
+            <a class="block" href="#felicity_ward">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image felicity_ward">
+                    <div class="listing_inner_container">
+                        <p class="listing_time">18:00</p>
+                        <h3>Felicity Ward</h3>
+                    </div>
+                </div>
+            </a>
+            <a class="block" href="#andrew_hunter_murray">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image andrew_hunter_murray">
+                    <div class="listing_inner_container">
+                        <p class="listing_time">19:20</p>
+                        <h3>Andrew Hunter Murray: Round One.</h3>
+                    </div>
+                </div>
+            </a>
+            <a class="block" href="#alexander_bennett">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image alexander_bennett">
+                    <div class="listing_inner_container">
+                        <p class="listing_time">20:40</p>
+                        <h3>Your Beloved Alexander Bennett</h3>
+                    </div>
+                </div>
+            </a>
+            <a class="block" href="#hell_to_play">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image hell_to_play">
+                    <div class="listing_inner_container">
+                        <p class="listing_time">22:00</p>
+                        <h3>Hell To Play</h3>
+                    </div>
+                </div>
+            </a>
+            <a class="block" href="#clusterfuck_show">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image clusterfuck_show">
+                    <div class="listing_inner_container">
+                        <p class="listing_time">23:20</p>
+                        <h3>Clusterf**k</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="listings row">
+            <a class="block" href="#sunday">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image clusterfest_red">
+                    <div class="listing_inner_container category">
+                        <h3 class="category">SUN</h3>
+                    </div>
+                </div>
+            </a>
+            <a class="block" href="#beard_of_zeus">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image beard_of_zeus">
+                    <div class="listing_inner_container">
+                        <p class="listing_time">12:40</p>
+                        <h3>Beard Of Zeus</h3></div>
+                </div>
+            </a>
+            <a class="block" href="#sian_and_zoe">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image sian_and_zoe">
+                    <div class="listing_inner_container">
+                        <p class="listing_time">14:00</p>
+                        <h3>Sian & Zoe</h3></div>
+                </div>
+            </a>
+            <a class="block" href="#jolly_boat">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image jolly_boat">
+                    <div class="listing_inner_container">
+                        <p class="listing_time">15:20</p>
+                        <h3>Jollyboat</h3></div>
+                </div>
+            </a>
+            <a class="block" href="#princes_of_main">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image princes_of_main">
+                    <div class="listing_inner_container">
+                        <p class="listing_time">16:40</p>
+                        <h3>Princes of Main</h3></div>
+                </div>
+            </a>
+        </div>
+        <div class="listings row">
+            <a class="block" href="#glenn_moore">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image glenn_moore">
+                    <div class="listing_inner_container">
+                        <p class="listing_time">18:00</p>
+                        <h3>Glenn Moore</h3></div>
+                </div>
+            </a>
+            <a class="block" href="#best_boy">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image best_boy">
+                    <div class="listing_inner_container">
+                        <p class="listing_time">19:20</p>
+                        <h3>Best Boy</h3></div>
+                </div>
+            </a>
+            <a class="block" href="#tamar_broadbent">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image tamar_broadbent">
+                    <div class="listing_inner_container">
+                        <p class="listing_time">20:40</p>
+                        <h3>Tamar Broadbent</h3></div>
+                </div>
+            </a>
+            <a class="block" href="#venue">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image clusterfest_yellow">
+                    <div class="listing_inner_container category">
+                        <h3 class="category">VENUE</h3>
+                    </div>
+                </div>
+            </a>
+            <a class="block" href="#food">
+                <div class="col-xs-12 col-sm-15 col-md-15 listings_block act_image clusterfest_blue">
+                    <div class="listing_inner_container category">
+                        <h3 class="category">FOOD</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="full-info-wrapper">
+        <h2>Full Info</h2>
+        <h2 id="saturday">Saturday</h2>
+        <div class="row textrow">
+            <div class="col-md-4 full-show" id="soton_spotlights">
+                <img class="show_image img-circle" src="./img/soton_spotlights.jpg">
+                <h4 class="act">Soton Spotlights</h4>
+                <h3 class="show-title">Drastic Measures</h3>
+                <p class="listing-time">12:50</p>
+                <p>Southampton Spotlights are up in arms against the current state of affairs, and invite you to join them for a lunchtime foray into sketches, schisms, and the end of all things sacred, tumbling downwards towards the start of something far less palatable. Daytime student comedy. Our attempt to chronicle life’s absurdity within the confines of early afternoon levity will be sure to entertain. What finer way to skip lunch? Southampton Spotlights features talent from sell-out shows at the Annex Theatre.</p>
+            </div>
+            <div class="col-md-4 full-show" id="notflix">
+                <img class="show_image img-circle" src="./img/notflix.jpg">
+                <h4 class="act">Waiting for the Call</h4>
+                <h3 class="show-title">Notflix</h3>
+                <p class="listing-time">14:00</p>
+                <p>Funny Women and Laughing Horse New Act of the Year Semi Finalists 2015 and Sunday Times and Elle Magazine pick of the Edinburgh Fringe, Waiting For The Call present their sell out show Notflix. Think of a terrible plot, think of awful characterisation, think of twists so frustratingly illogical that you yearn for the narrative simplicity of Memento. Waiting For The Call: The Improvised Musical presents Notflix, the most horrible and least recommended original movies generated from the ghastly depths of audience suggestion. How could it possibly get any worse? Did we mention the cast are making it up as they go along? Did we mention its a musical?. Notflix. The worst movies ever made, worsened with music.</p>
+                <p>
+                    Funny Women 2015 Semi Finalists</p>
+                <p>
+                    Laughing Horse New Act of the Year 2015 Semi Finalists</p>
+                <p>
+                    The Sunday Times Comedy pick of the Edinburgh Fringe</p>
+                <p>
+                    Elle Magazine Comedy Choice 2015</p>
+                <p>
+                    Musical Comedy Award Nominees 2016</p>
+                <p>
+                </p>
+                <p>'One of those groups that can improvise their way out of anything.’ ★★★★ 3Weeks</p>
+                <p>
+                    ‘Wonderful moments of improvised theatre... if you’ve never witnessed a piece of improvised theatre, prepare to have your eyes opened.’ - ★★★★ West End Frame</p>
+                <p>
+                    Professional, fun and effortlessly funny ★★★★ Musicaltalk</p>
+            </div>
+            <div class="col-md-4 full-show" id="elf_lyons">
+                <img class="show_image img-circle" src="./img/elf_lyons.jpg">
+                <h4 class="act">Elf Lyons</h4>
+                <h3 class="show-title">Pelican (WIP)</h3>
+                <p class="listing-time">15:40</p>
+                <p>A recent graduate from L'Ecole Philippe Gaulier, Elf Lyons (Feminist Times' One to Watch and The Media Eye's Rising Star 2016) sometimes wants to kill her mother. So she’s made a show about it, exploring the age-old fear of turning into your mother and what it means to have it all…</p>
+                <p>
+                    The type of comedy show Simone Du Beuvoir would probably have liked....
+                </p>
+            </div>
+        </div>
+        <div class="row textrow">
+            <div class="col-md-4 full-show" id="joe_hart">
+                <img class="show_image img-circle" src="./img/joe_hart.jpg">
+                <h4 class="act">Joe Hart</h4>
+                <h3 class="show-title">Internaut (WIP)</h3>
+                <p class="listing-time">16:50</p>
+                <p>Joe Hart (SYTYF? 3rd Place 2014, Tickled Pig Winner 2014) has a brand new show all about the digital world. Nerd out, explore the internet, get digitised live on stage and just maybe defeat an evil empire.</p>
+                <p> 'Unpretentious, warm and genuinely funny' **** (MumbleComedy.net).</p>
+                <p> 'A So You Think You're Funny runner-up, Hart is likeable, engaging and yes, I do think he's funny.' (Scotsman).</p>
+                <p>Prepare for crazy mad tech problems</p>
+            </div>
+            <div class="col-md-4 full-show" id="felicity_ward">
+                <img class="show_image img-circle" src="./img/felicity_ward.jpg">
+                <h4 class="act">Felicity Ward</h4>
+                <h3 class="show-title">50% More Likely To Die (WIP)</h3>
+                <p class="listing-time">18:10</p>
+                <p>Last year Felicity wrote a show about mental illness & IBS. Much to her surprise more people saw the show than her family, and a man called Gavin. Always one to flog a dead horse, she's back with another this one. And this time, she loses her bag. </p>
+                <p>
+                    WINNER: Best International Show 2016 New Zealand Comedy Festival </p>
+                <p>
+                    NOMINEE: Best Club Comic 2016 Chortle Awards</p>
+            </div>
+            <div class="col-md-4 full-show" id="andrew_hunter_murray">
+                <img class="show_image img-circle" src="./img/andrew_hunter_murray.jpg">
+                <h4 class="act">Andrew Hunter Murray</h4>
+                <h3 class="show-title">Round One</h3>
+                <p class="listing-time">19:30</p>
+                <p>Andrew Hunter Murray, star of Fringe smash Austentatious (***** Times), 'No Such Thing As The News' (BBC2) and hit podcast ‘No Such Thing As A Fish’, presents his debut solo hour, a sizzling slab of character comedy and high-stakes idiocy.</p>
+                <p> Comes complete with outlandish wordplay and an extremely exciting Music Round.</p>
+                <p> Bring the spirit of adventure, a thrilling sense of the possibilities of life, and a biro. 'Exquisitely punchy' (Times).</p>
+            </div>
+        </div>
+        <div class="row textrow">
+            <div class="col-md-4 full-show" id="alexander_bennett">
+                <img class="show_image img-circle" src="./img/alexander_bennett.jpg">
+                <h3 class="show-title">Your Beloved Alexander Bennett</h3>
+                <p class="listing-time">20:50</p>
+                <p>This year Alexander (writer for Harry Hill, creator of Hell To Play) has realised that in order to be listened to, he doesn’t just need his audience to laugh at him - they need to love him. Over an hour of twisted jokes, and joyful nonsense, the audience will surely leave declaring how much they adore him. And if they don't - well, perhaps Alexander has other ways of making them say it...</p>
+                <p>
+                    This is a show about emotional connections, being trans-oriented, cereal packaging, having a complete lack of humility, and why joining the girl scouts is a fine alternative to joining the Masons.</p>
+                <p>
+                    CHORTLE: "Fantastic… Anarchic…touched with madness. I don't think I can begin to do him justice; a producer and performer of some refreshingly different material"</p>
+                <p>
+                    HARRY HILL: "Witty, weird and dark, the one to watch out for: at the spearhead of a wave of great new comics. All hail Alexander Bennett!"</p>
+                <p>
+                    THE GUARDIAN: “Warm, insane and very funny”
+                </p>
+            </div>
+            <div class="col-md-4 full-show" id="hell_to_play">
+                <img class="show_image img-circle" src="./img/hell_to_play.jpg">
+                <h3 class="show-title">Hell To Play</h3>
+                <p class="listing-time">22:10</p>
+                <p>Hell To Play is a bad-taste satirical comedy game show set in Hell, hosted by the Devil.</p>
+                <p>
+                    Satan has been meeting a lot of people from the entertainment industry recently (and to that end is waiting excitedly for certain celebrity prisoners to die) which has inspired him to create a fabulous game show, with some of the worst people in hell hosting the games. Every show, two comedians compete to save their souls from damnation (normally, all comedians automatically go to hell).</p>
+                <p>
+                    Hell To Play was created by Alexander Bennett who directs and writes the show as well as playing Satan. Paul Savage and Joe Hart also write the show, and play several characters in the show. The cast is completed by Andy Barr.</p>
+            </div>
+            <div class="col-md-4 full-show" id="clusterfuck_show">
+                <img class="show_image img-circle" src="./img/clusterfuck_show.jpg">
+                <h3 class="show-title">Clusterf**k</h3>
+                <p class="listing-time">23:30</p>
+                <p>Join us for a late night anarchic imagining of Clusterf**k, featuring acts from Clusterfest and anyone willing to get on stage.
+                </p>
+            </div>
+        </div>
+        <h2 id="sunday">Sunday</h2>
+        <div class="row textrow">
+            <div class="col-md-4 full-show" id="beard_of_zeus">
+                <img class="show_image img-circle" src="./img/beard_of_zeus.jpg">
+                <h4 class="act">Beard of Zeus</h4>
+                <h3 class="show-title">The Very Nice Improv Show (WIP)</h3>
+                <p class="listing-time">12:50</p>
+                <p>The nicest improv show this side of Toronto. It’s so nice your Grandmother sends us money every Christmas. And guess what? We always send back a thank you note and donate the whole thing to charity.</p>
+                <p> It’s so nice that we don’t even pay scriptwriters to write our shows. Why? Because it’s an improv show ya schmuck. I’m sorry.</p>
+                <p> Come to our show it’s all I have left after my ex-wife took custody of our kids.</p>
+                <p> Formerly Southampton Outtakes. 'left the audience laughing out the door’ (edfringereview.com)
+                </p>
+            </div>
+            <div class="col-md-4 full-show" id="sian_and_zoe">
+                <img class="show_image img-circle" src="./img/sian_and_zoe.jpg">
+                <h3 class="show-title" id="sz_title">Siân & Zoë’s Luxury Cruise through the Horrifying Vacuum of Space (Work in Progress [In Space])</h3>
+                <p class="listing-time">14:15</p>
+                <p>Anarchic lo-fi sci-fi sketch comedy from ex-Footlights Siân Docksey and Zoë Tomalin. There’s only one problem with Siân and Zoë’s relaxing mindfulness retreat: it’s in the horrifying vacuum of space.</p>
+                <p> And ship is on a course for the sun. Okay, two problems.Between them, Siân and Zoë have had a cameo on Charlie Brooker’s Weekly Wipe, written for Channel4 Shorts, performed their sketches on BBC Radio 1 and received no relevant space training.</p>
+                <p> They met whilst performing with the Cambridge Footlights in 2012 and made their Edinburgh debut last year.
+                </p>
+                <p>“a bewildering cavalcade of self-referential humour and anti-humour” – ★★★★ Varsity</p>
+            </div>
+            <div class="col-md-4 full-show" id="jolly_boat">
+                <img class="show_image img-circle" src="./img/jollyboat.jpg">
+                <h4 class="act">Jollyboat</h4>
+                <h3 class="show-title">Jollyboaty McBoatFace</h3>
+                <p class="listing-time">15:40</p>
+                <p>
+                    Musical Comedy Award winning, cult Fringe hit Jollyboat are back with another nerdy show of comedy songs. We got songs for you if you were born in the '80s. Or '90s.</p>
+                <p>‘If you like Flight of the Conchords, you'll f*cking love Jollyboat’ ***** (ThreeWeeks).</p>
+                <p>***** (BroadwayBaby.com).</p>
+                <p>***** (LiverpoolStudentMedia.com).</p>
+                <p>***** (InformedCities.co.uk).
+                </p>
+            </div>
+        </div>
+        <div class="row textrow">
+            <div class="col-md-4 full-show" id="princes_of_main">
+                <img class="show_image img-circle" src="./img/princes_of_main.jpg">
+                <h4 class="act">Princes Of Main</h4>
+                <h3 class="show-title">Cool</h3>
+                <p class="listing-time">16:50</p>
+                <p>Award-nuzzling millennial nightmares Princes of Main present Cool: a lifestyle guide in how to be cool in the 21st century.</p>
+                <p> Cool is a brand new sketch experience, a manic TED Talk delivered by idiots.</p>
+                <p> 'Fresh, crafty gags for Generation Y' (Timeout).</p>
+                <p> 'Smart and artfully ramshackle' (List).
+                </p>
+            </div>
+            <div class="col-md-4 full-show" id="glenn_moore">
+                <img class="show_image img-circle" src="./img/glenn_moore.jpg">
+                <h4 class="act">Glenn Moore</h4>
+                <h3 class="show-title">Glengarry Glen Glenn</h3>
+                <p class="listing-time">18:10</p>
+                <p>'Tipped for great things' (GQ), Glenn Moore, from critically-acclaimed sketch duo Thunderbards, presents his debut hour, filled with smart jokes and offbeat gags. </p>
+                <p>Nominee - Best Debut Show, Dave's Leicester Comedy Festival 2016.</p>
+                <p> As heard on BBC Radio 4 and Radio X.
+                </p>
+            </div>
+            <div class="col-md-4 full-show" id="best_boy">
+                <img class="show_image img-circle" src="./img/best_boy.jpg">
+                <!-- <h4 class="act">Best Boy</h4> -->
+                <h3 class="show-title">Best Boy (WIP)</h3>
+                <p class="listing-time">19:30</p>
+                <p>Double act Best Boy present an hour of sketch comedy. Material heard on BBC Radio 4. 'Inspirational flair... a pleasingly macabre dark side' (Chortle.co.uk). 'A cheeky and energetic duo who mix surreal ideas with observational wit' (SketchClub.co.uk).</p>
+                <p> 'Reminds us of Billy Connolly and Blackadder' (ViewsFromTheGods.co.uk).</p>
+                <p> Finalists of So You Think That's Funny Best New Sketch Act 2015 and Golden Jester semi-finalists 2015.</p>
+                <p> Best Boy are clever, silly, often anarchic and the best Ant and Dec impersonators in the land.
+                </p>
+            </div>
+        </div>
+        <div class="row textrow">
+            <div class="col-md-4 full-show" id="tamar_broadbent">
+                <img class="show_image img-circle" src="./img/tamar_broadbent.jpg">
+                <h4 class="act">Tamar Broadbent</h4>
+                <h3 class="show-title">Get Ugly</h3>
+                <p class="listing-time">20:40</p>
+                <p>Living in the trendy part of town, Tamar has become uncharacteristically nervous about leaving the house. She is convinced there must be more to life than dodging hipsters, envying gym girls and keeping body hair under control.</p>
+                <p> Following the success of All By My Selfie in Edinburgh, Adelaide and Lithuania, award-winning comedy-songwriter Tamar returns with a brand new show about over-sharing, over-shaving, and embracing life without a filter.</p>
+                <p>Finalist Amused Moose Laugh Off and Funny Women Awards 2015.</p>
+                <p>
+                    As heard on BBC Radio 4. </p>
+                <p>
+                    ‘I predict a great future' (Michael Palin). </p>
+                <p>
+                    ‘Effervescent energy and easy charm’ **** (RipItUp.com.au).</p>
+                <p>
+                    ‘Something really special’ ***** (FemaleArts.com).</p>
+                <p>
+                    'If we are all superheroes, then she is the leader of the pack.' **** (A Younger Theatre)</p>
+                <p>
+                    'Lightning-fast comedic strokes, side-splitting timing and an impressive set of pipes' ***** (Broadway Baby). </p>
+                <p>
+                    'If this performer doesn't make it to the very top, there's something very wrong with the world' (Musical Theatre Review).
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row map" id="venue">
+        <div class="map-container">
+            <div class="overlay" onClick="style.pointerEvents='none'"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.163052376287!2d-0.05019078446458645!3d51.54690907964177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cfd4ea0401b%3A0x8e715b9f7b1a445c!2sFarley+Macallan!5e0!3m2!1sen!2suk!4v1465766829236" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="clusterfest-wrapper" id="food">
+        <div class="site-wrapper-inner" id="clusterfest">
+            <div class="cover-container">
+                <div class="inner-cover">
+                    <h1>Food</h1>
+                    <h2>More info coming soon</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript'>
+    (function($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0] = 'EMAIL';
+        ftypes[0] = 'email';
+        fnames[1] = 'FNAME';
+        ftypes[1] = 'text';
+        fnames[2] = 'LNAME';
+        ftypes[2] = 'text';
+    }(jQuery));
+    var $mcj = jQuery.noConflict(true);
+    </script>
+    <!--End mc_embed_signup-->
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script>
+    jQuery(".clusterfest-wrapper h1").fitText(0.7);
+    jQuery(".clusterfest-wrapper h2").fitText(1.9);
+    jQuery(".dates").fitText(1.9);
+    jQuery(".acts").fitText(5);
+    jQuery("h3.show-title").fitText(1);
+    jQuery("#sz_title").fitText(1.5);
+    // fitText(document.getElementById('clusterfest_header'), 1.2)
+    </script>
+    <script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>
